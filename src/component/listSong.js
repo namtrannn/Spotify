@@ -30,7 +30,7 @@ function ListSong() {
                     {DataSongs.map((song, index) => (
                         <tr
                             key={index}
-                            className={`bg-slate-800 h-12 text-gray-500 cursor-pointer hover:bg-slate-600 hover:text-zinc-300 ${idSong === song.id && 'text-zinc-400 bg-slate-600'}`}
+                            className={`bg-slate-800 h-12 text-gray-500 cursor-pointer hover:bg-slate-600 hover:text-zinc-300 ${idSong === song.id && 'text-zinc-100 bg-slate-600'}`}
                             onClick={() => handelPlaySong(song.id)}
                         >
                             <td className="text-center">{index + 1}</td>

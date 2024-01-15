@@ -18,7 +18,7 @@ function Playing() {
         <div>
             <H5AudioPlayer
                 className="play-music"
-                src={song.url}
+                src={song.url}  
                 layout="stacked-reverse"
                 showSkipControls={true}
                 showJumpControls={false}
